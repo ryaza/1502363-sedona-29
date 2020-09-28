@@ -3,13 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="normalize.css">
   <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <nav>
-      <ul>
+<body class="page-body">
+  <header class="main-header">
+    <nav class="main-navigation">
+      <ul class="site-navigation">
         <li>
           <a href="blank.html">Информация</a>
         </li>
@@ -17,7 +18,7 @@
           <a href="blank.html">Фото и видео</a>
         </li>
         <li>
-          <a href="index.html">
+          <a class="main-header-logo" href="index.html">
             <img src="https://via.placeholder.com"  width="138" height="70" alt="Логотип Sedona">
           </a>
         </li>
@@ -31,9 +32,9 @@
     </nav>
   </header>
   <main>
-    <section>
-      <h1 class= "visually-hidden">Фильтр товаров</h1>
-      <!--<form action="blank.html" method="get">
+    <section class="filter">
+      <h1 class="visually-hidden">Фильтр товаров</h1>
+      <form action="blank.html" method="get">
       <fieldset>
       <legend>Инфраструктура</legend>
       <ul>
@@ -54,7 +55,7 @@
 <legend>Стоимость в сутки (P):</legend>
 </fieldset>
 <button class="submit">Показать</button>
-</form>-->
+</form>
 </section>
 <section>
   <h2>Найдено:</h2>
@@ -70,10 +71,10 @@
       <a href="blank.html">По рейтингу</a>
     </li>
     <li>
-      <a href=""> <img src="https://via.placeholder.com" width="11" height="10" alt="вверх"></a>
+      <a href=""blank.html""> <img src="https://via.placeholder.com" width="11" height="10" alt="вверх"></a>
     </li>
     <li>
-      <a href=""> <img src="https://via.placeholder.com" width="11" height="10" alt="вниз"></a>
+      <a href=""blank.html""> <img src="https://via.placeholder.com" width="11" height="10" alt="вниз"></a>
     </li>
   </ul>
 </section>
@@ -145,28 +146,34 @@
 </section>
 </main>
 <footer>
-  <section>
-    <h5 class="vissually-hidden">Контакты</h5>
-    <div>
+  <section class="contacts">
+    <h5 class="visually-hidden">Контакты</h5>
+    <div class="contacts-phone">
       <p>#VISITSEDONA</p>
-      <a href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</a>
+      <a class="contacts-phone" href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</a>
     </div>
-    <div>
+    <div class="contacts-social">
       <ul>
         <li>
-          <a href="blank.html"></a>
+          <a class="button" href="blank.html">
+            <img src="https://via.placeholder.com"  width="46" height="48" alt="twitter">
+          </a>
         </li>
         <li>
-          <a href="blank.html"></a>
+          <a class="button" href="blank.html">
+            <img src="https://via.placeholder.com"  width="46" height="48" alt="facebook">
+          </a>
         </li>
         <li>
-          <a href="blank.html"></a>
+          <a class="button" href="blank.html">
+            <img src="https://via.placeholder.com"  width="46" height="48" alt="youtube">
+          </a>
         </li>
       </ul>
     </div>
-    <div>
+    <div class="contacts-creator">
       <p>Website by</p>
-      <a href="index.html"><img src="https://via.placeholder.com" width="115" height="41" alt="Логотип Sedona"></a>
+      <a class="button" href="index.html"><img src="https://via.placeholder.com" width="115" height="41" alt="Логотип Sedona"></a>
     </div>
   </section>
 </footer>
