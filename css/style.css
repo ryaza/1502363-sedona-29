@@ -42,7 +42,7 @@ img {
 }
 
 /* Main navigation */
-.vissually-hidden{
+.visually-hidden{
   display: none;
 }
 
@@ -63,14 +63,14 @@ img {
   opacity: 0.3;
 }
 
-.site-navigation a:active{
+.site-navigation a:active {
   color: var(--basic-dark-gray);
 }
 
 
 /* Slogan */
 
-.slogan-picture{
+.slogan-picture {
   background-image: url(../img/background.jpg);
   background-repeat: no-repeat;
   width: 100%;
@@ -90,20 +90,20 @@ img {
 
 
 /* Features */
-.features-list{
+.features-list {
   list-style: none;
 
 }
-.features-list h3{
+.features-list h3 {
   font-weight: bold;
   font-size: 21px;
 }
 
-.features-item-1{
+.features-item-1 {
   background: var(--basic-blue);
   color: var(--basic-white);
 }
-.features-item-3{
+.features-item-3 {
   background: var(--basic-gray);
 }
 
@@ -140,4 +140,112 @@ img {
 }
 .contacts-creator {
   line-height: 26px;
+}
+
+
+
+/*Hotels*/
+
+/*filter*/
+
+.filter {
+  background-image: url(../img/filter.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  color: var(--basic-white);
+}
+
+.results h2 {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.results-sorting {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sorting-criteria {
+  list-style: none;
+}
+
+.sorting-criteria-item a {
+  font-size: 12px;
+  line-height: 18px;
+  list-style: none;
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+.sorting-criteria-item a:focus {
+  color: var(--basic-black);
+  opacity: 1;
+}
+
+.sorting-criteria-item a:active,
+.sorting-criteria-item a:hover {
+  color: var(--basic-blue);
+  opacity: 1;
+}
+
+/*catalog*/
+
+.catalog-item-description a {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--basic-black);
+}
+
+.catalog-item-description a:hover {
+  color: var(--basic-blue);
+}
+
+.catalog-item-description a:focus{
+  opacity: 0.3;
+}
+
+.catalog-item-description p {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--basic-light-black);
+}
+
+.button-details {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
+  width: 110px;
+  height: 27px;
+}
+.button-details:hover {
+  background-color: var(--basic-hover-blue);
+}
+.button-details:focus {
+  background-color: var(--basic-focus-blue);
+  color: var(--basic-white);
+  opacity: 0.3;
+
+}
+
+.button-reservation {
+  width: 142px;
+  height: 27px;
+  background-color: var(--basic-dark-gray);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--basic-white);
+}
+.button-reservation:hover {
+  background-color: var(--basic-hover-gray);
+  color: var(--basic-white);
+}
+.button-reservation:focus {
+  background-color: var(--basic-focus-gray);
+  color: var(--basic-white);
+  opacity: 0.3;
 }
