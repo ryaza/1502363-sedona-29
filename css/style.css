@@ -63,14 +63,14 @@ img {
   opacity: 0.3;
 }
 
-.site-navigation a:active{
+.site-navigation a:active {
   color: var(--basic-dark-gray);
 }
 
 
 /* Slogan */
 
-.slogan-picture{
+.slogan-picture {
   background-image: url(../img/background.jpg);
   background-repeat: no-repeat;
   width: 100%;
@@ -90,20 +90,20 @@ img {
 
 
 /* Features */
-.features-list{
+.features-list {
   list-style: none;
 
 }
-.features-list h3{
+.features-list h3 {
   font-weight: bold;
   font-size: 21px;
 }
 
-.features-item-1{
+.features-item-1 {
   background: var(--basic-blue);
   color: var(--basic-white);
 }
-.features-item-3{
+.features-item-3 {
   background: var(--basic-gray);
 }
 
@@ -166,11 +166,11 @@ img {
   line-height: 18px;
 }
 
-.sorting-criteria{
+.sorting-criteria {
   list-style: none;
 }
 
-.sorting-criteria-item a{
+.sorting-criteria-item a {
   font-size: 12px;
   line-height: 18px;
   list-style: none;
@@ -191,7 +191,7 @@ img {
 
 /*catalog*/
 
-.catalog-item-description a{
+.catalog-item-description a {
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
@@ -206,7 +206,7 @@ img {
   opacity: 0.3;
 }
 
-.catalog-item-description p{
+.catalog-item-description p {
   font-size: 14px;
   line-height: 21px;
   color: var(--basic-light-black);
@@ -221,10 +221,10 @@ img {
   width: 110px;
   height: 27px;
 }
-.button-details:hover{
+.button-details:hover {
   background-color: var(--basic-hover-blue);
 }
-.button-details:focus{
+.button-details:focus {
   background-color: var(--basic-focus-blue);
   color: var(--basic-white);
   opacity: 0.3;
@@ -240,11 +240,11 @@ img {
   line-height: 21px;
   color: var(--basic-white);
 }
-.button-reservation:hover{
+.button-reservation:hover {
   background-color: var(--basic-hover-gray);
   color: var(--basic-white);
 }
-.button-reservation:focus{
+.button-reservation:focus {
   background-color: var(--basic-focus-gray);
   color: var(--basic-white);
   opacity: 0.3;
